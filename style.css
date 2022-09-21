@@ -1,0 +1,219 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+/* header */
+
+header a {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    color: #3A5F56;
+}
+
+/* hi */
+
+.hi{
+    background: url(./img/Frame\ \(17\).png) no-repeat center;
+    height: 973px;
+
+}
+
+.hi .right h1{
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 58px;
+    color: #3A5F56;
+}
+
+.hi .right p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #292C32;    
+}
+
+.hi .right button{
+    border: none;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
+    background: #3A5F56;
+    border-radius: 6px;
+    padding: 10px 18px;
+}
+
+.hi .left img{
+    filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
+    border-radius: 24px;
+}
+
+/* Services */
+
+.Services{
+    background: url(./img/Frame\ \(18\).png) no-repeat center;
+    height: 1321px;
+}
+
+.Services .ser{
+    margin: auto;
+    padding-top: 100px;
+}
+
+.Services .ser h1{
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+    color: #3A5F56;
+}
+
+.Services .ser p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: #292C32;
+}
+
+.Services .car{
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.03);
+    border-radius: 16px;
+    padding: 20px;
+}
+
+.Services .car h5{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #3A5F56;    
+}
+
+.Services .car p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #292C32;
+}
+
+/* store */
+
+.store{
+    background: url(./img/Frame\ \(19\).png) no-repeat center;
+    height: 890px;
+}
+
+.store .ser{
+    margin: auto;
+    padding-top: 100px;
+}
+
+.store .ser h1{
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+    color: #DB343B;
+}
+
+.store .ser p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: #292C32;
+}
+
+.store .mir{
+    background: #FFFFFF;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 16px;
+}
+
+.store .mir h5{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 34px;  
+    color: #3A5F56;    
+}
+
+.store .mir p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #3A5F56;
+}
+
+/* main */
+
+main{
+    background: url(./img/Frame\ \(20\).png);
+    height: 460px;
+}
+
+main .follow{
+    background: #F4F3F0;
+    border-radius: 16px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+main .follow h4{
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 34px;
+    color: #292C32;
+}
+
+main .follow p{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;   
+    text-align: center;
+    color: #FFFFFF;
+    background: #3A5F56;
+    border-radius: 6px;
+    border: none;
+    padding: 15px 25px;
+}
+
+/* footer */
+
+footer {
+    background: #292C32;
+    padding-top: 50px;
+}
+
+footer p{
+    color: #FFFFFF;
+}
+
+
+/* media */
+
+@media(max-width:768px){
+    .hi .right h1{
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .hi .right p{
+        font-size: 14px;
+        line-height: 17px; 
+    }
+    footer p{
+        text-align: center;
+    }
+}
